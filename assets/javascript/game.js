@@ -24,11 +24,12 @@ document.onkeyup = function (event) {
             guessChoices.push(userGuess);
         }
 
-        if (numGuesses === 0) {
+        if (numGuesses === -1) {
 
             numGuesses = 9;
             losses++;
             guessChoices = [];
+            alert("Do you wish to try again?"); 
         }
     }
 
