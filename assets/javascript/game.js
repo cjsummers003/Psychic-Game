@@ -29,7 +29,7 @@ document.onkeyup = function (event) {
             numGuesses = 9;
             losses++;
             guessChoices = [];
-            alert("Do you wish to try again?"); 
+            alert("Game Over, Try Again!"); 
         }
     }
 
